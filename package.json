@@ -1,5 +1,5 @@
 {
-    "name": "Reception Screen +footer",
+    "name": "Reception Screen w/ footer",
     "author": "Florian Wesch, Andy Fischer <info@Andyland.info>",
     "desc": "Shows textual/image and video information for a reception-style information screen.",
     "repository": "https://github.com/Andymann/package-reception",
