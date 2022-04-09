@@ -396,6 +396,7 @@ local function Video(config)
                 file = file,
                 paused = true,
                 audio = node_config.audio,
+				-- rawvideo = node_config.rawvideo,
                 raw = true,
             }
             vid:layer(-10)
@@ -411,6 +412,7 @@ local function Video(config)
                 file = file,
                 paused = true,
                 audio = node_config.audio,
+				-- rawvideo = node_config.rawvideo,
             }
 
             for now, x1, y1, x2, y2 in from_to(starts, ends) do
@@ -838,7 +840,7 @@ local function playlist()
             return Video{
                 fade_time = 0,
                 asset_name = media.asset_name,
-                raw = true,
+                raw = node_config.rawvideo,
             }
         end
     end

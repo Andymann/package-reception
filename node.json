@@ -61,6 +61,12 @@
         "type": "boolean",
         "default": false
     }, {
+        "title": "RawVideo",
+        "ui_width": 2,
+        "name": "rawvideo",
+        "type": "boolean",
+        "default": false
+    }, {
         "title": "Pages",
         "name": "pages",
         "type": "list",
