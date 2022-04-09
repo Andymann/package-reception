@@ -1,5 +1,7 @@
 # Reception Screen
 
+My fork adds a global fix to have an empty folder NOT shown as a black bar at the bottom of the screen. Furthermore it adds a global parameter 'raw Video' just in case something might be off.
+
 This package allows you to display images, videos and text next to a text scroller.
 All offered with an easy configuration interface that allows you to schedule your
 content.
@@ -26,10 +28,10 @@ fullscreen mode.
 You can also set a footer image. It should be 1920x50. The left 300 pixels
 are used by the clock. The remaining pixels show the scrolling text.
 
-You can use the included *example-footer.png* and *example-header.png* can
+You can use the included _example-footer.png_ and _example-header.png_ can
 be used to test.
 
-If you want to play audio for video files, select the *audio* checkbox.
+If you want to play audio for video files, select the _audio_ checkbox.
 
 ## Adding Pages
 
@@ -40,16 +42,16 @@ Just click on **Add** to create a new page.
 
 In the top panel you can select multiple layouts:
 
- * *Text on left side* - Will show an image and a text. The text will be on the left half of the screen.
- * *Text on right side* - Same as above except that the text is on the right side.
- * *Fullscreen* - Show a video/image in fullscreen mode. This will hide the header image. Only the
-   scrolling text and the clock is visible.
+- _Text on left side_ - Will show an image and a text. The text will be on the left half of the screen.
+- _Text on right side_ - Same as above except that the text is on the right side.
+- _Fullscreen_ - Show a video/image in fullscreen mode. This will hide the header image. Only the
+  scrolling text and the clock is visible.
 
-Next to the layout dropdown you can see the *Duration* selector. You can select how long the
+Next to the layout dropdown you can see the _Duration_ selector. You can select how long the
 current page should be visible before switching to the next one.
 
 Finally you can select a custom schedule for your content. By default your content is always
-scheduled. If you click on the *Schedule* button, a new grid of options will be visible:
+scheduled. If you click on the _Schedule_ button, a new grid of options will be visible:
 
 ![Schedule Interface](doc-schedule.png)
 
@@ -78,7 +80,7 @@ Finally there is the text field that allows you to input the text you
 want to show on the screen. It supports a limited set of markdown to
 allow you to easily format your text:
 
-Use *#* or *##* to create a headline like this:
+Use _#_ or _##_ to create a headline like this:
 
 ```
 # Headline
@@ -88,7 +90,7 @@ Use *#* or *##* to create a headline like this:
 Normal text
 ```
 
-You can also render tabular data using the *|* character like this:
+You can also render tabular data using the _|_ character like this:
 
 ```
 Opening times:
@@ -102,24 +104,24 @@ All text is automatically wrapped and centered on the screen.
 
 ## Scrolling Text
 
-If you want to add scrolling text, select the *Scroller* node on
+If you want to add scrolling text, select the _Scroller_ node on
 the left side of the configuration screen. You'll see the
 configuration interface for the scroller. You can add your
-own text here by clicking on the *Add Text* button and then
+own text here by clicking on the _Add Text_ button and then
 adding your text in the new row.
 
 ## Changelog
 
 ### Version 0.3
 
- * Compatible with the Pi4
+- Compatible with the Pi4
 
 ### Version 0.3
 
- * Added the ability to enable audio output for all video files.
-   If you enable this option, be sure that your device actually outputs
-   audio to the correct [audio target](https://info-beamer.com/doc/device-configuration#specifyaudiotarget).
+- Added the ability to enable audio output for all video files.
+  If you enable this option, be sure that your device actually outputs
+  audio to the correct [audio target](https://info-beamer.com/doc/device-configuration#specifyaudiotarget).
 
 ### Version 0.2
 
- * Added support for the "automatic duration" setting per page.
+- Added support for the "automatic duration" setting per page.
